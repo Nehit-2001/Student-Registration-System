@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1 1 200px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.display-section table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-y: auto;
+  max-height: 400px;
+  display: block;
+}
+
+.display-section thead {
+  background-color: #4caf50;
+  color: white;
+}
+
+.display-section th, .display-section td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.display-section td button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.display-section td button.edit {
+  background-color: #2196f3;
+}
+
+.display-section td button:hover {
+  opacity: 0.8;
+}
